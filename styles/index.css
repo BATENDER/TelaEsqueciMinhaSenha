@@ -1,0 +1,27 @@
+:root {
+    --rosa: #f07fb0;
+    --branco: whitesmoke;
+    --cinza: rgb(230, 215, 215);
+}
+
+form button {
+    background-color: transparent!important;
+    color: var(--branco) !important;
+    border: 1px solid var(--branco) !important;
+}
+
+form button:hover {
+    background-color: var(--branco) !important;
+    color: var(--rosa) !important;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+h5 a {
+    color: var(--branco);
+}
+
+h5 a:hover {
+    font-size: 16pt;
+    text-shadow: 0 0 5px var(--cinza);
+}
